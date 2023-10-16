@@ -502,8 +502,10 @@ div.alert-text {
 .various-pictures .trailer-info {
     display: flex;
     gap: 20px;
-    display: none;
-    /* Al poner none, me desaparecen y con el hover me vuelven a aparecer  */
+    transition: all 0.5s;
+    bottom: -30px;
+    /* Bottom es para que me aparezca desde abajo */
+    opacity: 0;
 }
 
 .various-pictures .trailer-info a:hover {
@@ -515,13 +517,12 @@ div.alert-text {
 .various-pictures .article-2:hover .trailer-info,
 .various-pictures .article-3:hover .trailer-info,
 .various-pictures .article-4:hover .trailer-info {
-    bottom: 50px;
     gap: 50px;
-    transition: all 0.5s 0.5s;
-    padding: 30px;
+    opacity: 1;
+    padding-bottom: 50px;
     display: flex;
-    text-transform: uppercase;
 }
+
 
 
 .various-pictures .trailer-icon {
