@@ -1,0 +1,71 @@
+/* Estilos main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-block-end: 100px;
+}
+
+.main .title-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.main [class^="article-"] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Estilos sección 2 */
+.section-2 .article-info {
+    display: flex;
+    flex-direction: row;
+    gap: 505px;
+}
+
+.section-2 .education,
+.section-2 .work {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilos de letras */
+
+
+.main section:hover .title-link {
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.main section:hover .section-p {
+    color: #690000;
+    transition: 0.3s;
+}
+
+.main section:hover .article-title {
+    font-weight: bold;
+    color: #3d1a1a;
+    transition: 0.3s;
+}
+
+.main section:hover .place-title {
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #005a5a;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+

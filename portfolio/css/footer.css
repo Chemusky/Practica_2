@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 156px;
+    background-color: #c1af9c;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer:hover {
+    transition: 0.3s;
+    background-color: #ac947a;
+    color: #332a2a;
+}

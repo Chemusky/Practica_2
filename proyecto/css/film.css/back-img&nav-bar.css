@@ -1,0 +1,62 @@
+/* Imagen de fondo y elementos en su interior */
+.background-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../img/the-dirt-back.jpg);
+}
+
+.film-title {
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.background-picture:hover .film-title {
+    color: #ff2c44;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+
+/* Barra de navegación */
+
+.nav-puntuation {
+    background-color: #ff001e;
+    display: flex;
+    justify-content: center;
+    padding-block-start: 15px;
+    padding-block-end: 15px;
+}
+
+.nav-puntuation .father-container {
+    display: flex;
+    gap: 90px;
+}
+
+.nav-puntuation [class^="child-"] {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-puntuation .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-puntuation .first-info {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.nav-puntuation .secondary-info {
+    font-size: 12px;
+    color: #ffffff;
+}

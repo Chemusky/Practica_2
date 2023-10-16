@@ -1,0 +1,31 @@
+/* Estilos de los botones fijos laterales */
+
+.fixed-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: fixed;
+    right: 0;
+    top: 45%;
+    transform: -50%;
+}
+
+.fixed-buttons [class^="fixed-button-"] {
+    background-color: #273f43;
+    block-size: 50px;
+    inline-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fixed-buttons .fixed-button-4 {
+    margin-block-start: 50px;
+    position: relative;
+}
+
+.fixed-buttons [class^="fixed-button-"]:hover {
+    background-color: #131414;
+    /* opacity: 70%; */
+}
