@@ -1,0 +1,62 @@
+/* Sección de comentarios */
+div.commentaries-container {
+  background-color: #e0011a;
+  padding: 100px;
+}
+
+section.people-comentaries {
+  display: flex;
+  gap: 44px;
+}
+
+section.people-comentaries div.flex-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.people-comentaries div.flex-image svg {
+  position: relative;
+  bottom: 0;
+  height: 23px;
+  width: 23px;
+  cursor: not-allowed;
+}
+
+section.people-comentaries img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+section.people-comentaries p.paragraph-styles {
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+  font-size: 14px;
+}
+
+section.people-comentaries p.paragraph-styles:hover {
+  border-bottom: 1px solid #7df359;
+  transition: 0.3s;
+}
+
+section.people-comentaries div.identification-styles {
+  text-align: center;
+  color: #ffffff;
+}
+
+section.people-comentaries div.identification-styles:hover {
+  color: #3cf3b6e7;
+  transition: 0.3s;
+}
+
+section.people-comentaries div.identification-styles h4 {
+  font-weight: bold;
+}
+
+/* Fin sección de comentarios */

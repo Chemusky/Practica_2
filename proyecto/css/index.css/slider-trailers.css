@@ -1,0 +1,168 @@
+/* Sección Recient Trailers/Slider */
+.section-recent-trailers {
+  margin-block-start: 100px;
+  height: 400px;
+  background-color: #f2f2f2ee;
+}
+
+.nav-recent-trailers {
+  position: relative;
+  bottom: 60px;
+  color: #8b8b8b;
+}
+
+.nav-recent-trailers button {
+  text-transform: uppercase;
+  color: #8b8b8b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-recent-trailers button:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.recent-trailers {
+  position: relative;
+  bottom: 50px;
+}
+
+.section-recent-trailers .recent-trailers {
+  display: flex;
+  gap: 100px;
+  /* height: 300px; */
+  /* Este height le da la altura a las cuatro imágenes de antes del samurai */
+  /* justify-content: space-evenly; */
+  /* position: relative;
+      bottom: 50px; */
+}
+
+.recent-trailers .svg-play-films:hover {
+  fill: #297eff;
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-1 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://pics.filmaffinity.com/Metal_Lords-409396188-large.jpg");
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-1,
+.section-recent-trailers .recent-trailers .trailer-film-2,
+.section-recent-trailers .recent-trailers .trailer-film-3,
+.section-recent-trailers .recent-trailers .trailer-film-4,
+.section-recent-trailers .recent-trailers .trailer-film-5 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-width: 298px; */
+  height: 300px;
+  width: 15%;
+  /* Este height le da la altura a las cuatro imágenes de antes del samurai, parece que da igual
+      si se pone en el padre de los cuatro article que incluyen las cuatro imágenes de fondo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-1:hover {
+  background-image: url(../../img/metal-lords.jpg);
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-2 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_.jpg");
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-2:hover {
+  background-image: url(../../img/valak.jpg); /* la foto de valak cuidado que a veces asusta */
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-3 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://pics.filmaffinity.com/Blackwood-825395198-large.jpg");
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-3:hover {
+  background-image: url(../../img/blackwood.jpg);
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-4 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://pics.filmaffinity.com/Assassin_s_Creed-664654874-large.jpg");
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-4:hover {
+  background-image: url(../../img/ac.jpg);
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-5 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://pics.filmaffinity.com/The_Dirt-567303583-large.jpg");
+}
+
+.section-recent-trailers .recent-trailers .trailer-film-5:hover {
+  background-image: url(../../img/The_Dirt.jpg);
+}
+
+/* Slider recent trailers */
+div.alert-text {
+  position: relative;
+  left: 22%;
+  bottom: 10%;
+  display: flex;
+  gap: 20px;
+}
+
+.alert-text .films-genre a {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.alert-text .films-genre a:hover {
+  color: #273f43;
+  font-weight: bolder;
+  border-bottom: 1px solid #273f43;
+  transition: 0.3s;
+}
+
+.bullets-icon ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bullets-icon li > div {
+  height: 15px;
+  width: 15px;
+  background-color: #a8a8a8;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bullets-icon li > div:hover {
+  background-color: #61ee0f;
+}
+/* Fin apartado recent trailers/slider */

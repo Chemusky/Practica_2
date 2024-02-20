@@ -1,0 +1,149 @@
+/* Sección después del samurai */
+
+.various-pictures {
+  display: flex;
+  cursor: pointer;
+}
+
+.various-pictures .trailer-info {
+  display: flex;
+  gap: 20px;
+  transition: all 0.5s;
+  bottom: -30px;
+  /* Bottom es para que me aparezca desde abajo */
+  opacity: 0;
+}
+
+.various-pictures .trailer-info a:hover {
+  color: #a8a8a8b6;
+  transition: 0.3s;
+}
+
+.various-pictures .article-1:hover .trailer-info,
+.various-pictures .article-2:hover .trailer-info,
+.various-pictures .article-3:hover .trailer-info,
+.various-pictures .article-4:hover .trailer-info {
+  gap: 50px;
+  opacity: 1;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.various-pictures .trailer-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.various-pictures .info-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.various-pictures .article-1 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://filmax.themerex.net/wp-content/uploads/2017/12/post-27-copyright-485x665.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
+
+.various-pictures .article-2 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.8) 0%,
+      transparent 60%
+    ),
+    url("https://filmax.themerex.net/wp-content/uploads/2017/12/post-25-copyright-485x665.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
+
+.various-pictures .article-3 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://filmax.themerex.net/wp-content/uploads/2017/12/post-29-copyright-485x665.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
+
+.various-pictures .article-4 {
+  background-image: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5) 0%,
+      transparent 60%
+    ),
+    url("https://filmax.themerex.net/wp-content/uploads/2017/12/post-23-copyright-485x665.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
+
+.various-pictures .link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.various-pictures .inline-links {
+  display: flex;
+  gap: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.various-pictures a.film-title {
+  color: #ffffff;
+  font-size: 27.8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.various-pictures .trailer-info a {
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.various-pictures .article-2-title {
+  text-align: center;
+}
+/* Fin sección despues del samurai */
